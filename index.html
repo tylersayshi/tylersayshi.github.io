@@ -119,7 +119,7 @@
           />
         </svg>
       </a>
-      <button id="mail" title="those who inspect carefully may find me">
+      <button id="mail">
         <svg
           height="800px"
           width="800px"
@@ -156,7 +156,7 @@
   <script lang="javascript">
     const mailButton = document.getElementById("mail");
     mailButton.addEventListener("click", () => {
-      console.log("hi" + "@" + window.location.hostname);
+      window.alert("hi" + "@" + window.location.hostname);
     });
   </script>
 </html>
